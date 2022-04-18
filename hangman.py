@@ -1,3 +1,5 @@
+import sys
+
 def drawHangman(missedLetters, correctLetters, secretWord):
     """Draw the current state of the hangman, along with the missed and correctly-guessed letters of the secret word."""
     
